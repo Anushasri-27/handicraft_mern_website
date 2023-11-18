@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 .artWrap{
     height: 70vh;
     width: 98.5vw;
@@ -12,7 +14,7 @@
  
 }
 .details{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,19 +22,24 @@
    
 }
 .details h1{
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
+    font-weight: bold
 }
 .details p{
     text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
     text-transform: capitalize;
+    color: #3A4D39;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
 }
 
 .artImg{
     height: 50vh;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
+    margin-left: 20%;
 }

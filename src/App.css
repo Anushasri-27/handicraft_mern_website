@@ -40,15 +40,23 @@ html {
   height: 40vh;
   width: 100%;
   backdrop-filter: blur(2px);
-  font-family: 'Martian Mono', monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+
 
 }
+.navbar{
+  background-color: #293128;
+ 
+}
+
 
 .logoWrap {
   margin-left: 5%;
   padding: 6%;
   box-shadow: 1px 1px 20px #0b0b0b;
-
   background-image: url('./images/logo.jpg');
+  background-repeat: no-repeat;
   background-size: contain;
 }

@@ -5,6 +5,8 @@ import Header from "../components/Header";
 import gsap from "gsap";
 import img1 from "../images/product-jpeg-500x500.webp";
 import img2 from "../images/things_to_know_before_buying_blue_potterry.png";
+import img3 from "../images/glassimg.jpg";
+import img4 from "../images/madhubani.jpg";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
@@ -56,7 +58,7 @@ const Home = () => {
             heart of India's artisanal heritage, where every piece tells a story
             and every creation is a labor of love.
           </div>
-          <p className="text-center">scroll-down to know more</p>
+          <p className="text-center text-color">scroll-down to know more</p>
           <div>
             <div class="scroll" onClick={handleClick}> </div>
           </div>
@@ -72,10 +74,10 @@ const Home = () => {
               <ArtDisplay  img={img2} title={"Blue Pottery"} about={"Jaipur blue pottery has strong influences of the Persian ceramic style but it has developed its own designs and motifs. Inspired more from nature, the pottery is adorned with profusely animals, birds and flowers with a hint of Persian geometric design in the compositions.["}/>
             </section>
             <section className="scroll-section purple">
-              <ArtDisplay />
+              <ArtDisplay img={img3} title={"Glass art"}  about={"Glass art refers to individual works of art that are substantially or wholly made of glass. It ranges in size from monumental works and installation pieces to wall hangings and windows, to works of art made in studios and factories, including glass jewelry and tableware."}  />
             </section>
             <section className="scroll-section green">
-              <ArtDisplay />
+              <ArtDisplay img={img4} title={"Madhubani"}  about={"Madhubani art (also Mithila art) is a style of painting practiced in the Mithila region of India and Nepal. It is named after the Madhubani district of Bihar, India, which is where it originated. Artists create these paintings using a variety of mediums, including their own fingers, or twigs, brushes, nib-pens, and matchsticks. The paint is created using natural dyes and pigments. The paintings are characterised by their eye-catching geometrical patterns. "}  />
             </section>
           </div>
         </div>

@@ -105,6 +105,7 @@ body {
   height: 57px;
   border-radius: 50%;
   background-image: url('../images/down.png');
+
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -112,6 +113,12 @@ body {
   animation: down 1.5s infinite;
   -webkit-animation: down 1.5s infinite;
 
+}
+
+.text-color{
+  color: #3A4D39;
+  font-size: 1.8rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @keyframes down {

@@ -6,11 +6,11 @@ const Header = () => {
       <div className="inne-header">
         <div>
           <h2> welcome to Kalaa </h2>
-          <h4> new stop to buy  Indian handicraft</h4>
+          <h4> new stop to buy Indian handicraft</h4>
         </div>
-        <div className="logoWrap">
-        
-        </div>
+      
+          <div className="logoWrap"></div>
+     
       </div>
     </div>
   );
