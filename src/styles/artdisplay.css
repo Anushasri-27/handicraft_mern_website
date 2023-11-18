@@ -1,0 +1,38 @@
+.artWrap{
+    height: 70vh;
+    width: 98.5vw;
+    display: flex;
+  
+}
+.imgWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+ 
+}
+.details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.details h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.details p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.artImg{
+    height: 50vh;
+    width: 80%;
+    border-radius: 10px;
+}
