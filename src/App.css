@@ -19,10 +19,10 @@ html {
 
 .header {
   width: 100vw;
-  height: 40vh;
+  height: 60vh;
   color: white;
   background-color: #586358;
-  background-image: url('./images/Handicrafts-of-India.webp');
+  background-image: url('./images/header_banner.jpg');
   background-blend-mode: overlay;
   background-position: right;
   text-transform: capitalize;
@@ -32,23 +32,35 @@ html {
 
 .inne-header {
   margin: 0;
+  margin-left: 11%;
+  margin-top: 3%;
+  padding-bottom: 3%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #0b0b0b;
-  height: 40vh;
-  width: 100%;
-  backdrop-filter: blur(2px);
+  height: 30vh;
+  width: 80%;
+  backdrop-filter: blur(5px);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-position: center;
+  background-size: cover;
   word-spacing: 10px;
   letter-spacing: 3px;
 
 
 }
 .navbar{
-  background-color: #293128;
+  background-color: #e8ece8;
+  font-size: 20px;
+  box-shadow: 1px 1px 5px rgb(135, 133, 133);
  
+}
+.navbar :hover{
+  font-size: 20px;
+
+
 }
 
 
