@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/home.css";
-import ArtDisplay from "../components/ArtDisplay";
-import Header from "../components/Header";
+import ArtDisplay from "./ArtDisplay";
+import Header from "./Header";
 import gsap from "gsap";
 import img1 from "../images/product-jpeg-500x500.webp";
 import img2 from "../images/things_to_know_before_buying_blue_potterry.png";
