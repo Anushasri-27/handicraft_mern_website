@@ -3,18 +3,27 @@ const router = express.Router();
 const Model= require('../models/ProductModel');
 console.log(' inside product router')
 //saving data to database
-router.post("/add", (req, res) => {
-    console.log(req.body);
-    new Model(req.body)
-      .save() //to store sata in db and it return promise so we should resolve it
-      .then((result) => {
-        res.json(result);
-      })
-      .catch((err) => {
-        console.error(err);
-        res.status(500).json(err);
-      });
+router.post("/add",(req,res)=>{
+  new Model(req.body).save().then((result)=>{
+      res.json(result);
+  }).catch((err)=>{
+      console.log(err);
+      res.status(500).json(err)
   });
+
+});
+
+
+router.delete("/delete/:id", (req, res) => {
+  Model.findByIdAndDelete(req.params.id)
+    .then((result) => {
+      res.json(result);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.status(500).json(err);
+    });
+});
 
 //retriving data from db
 

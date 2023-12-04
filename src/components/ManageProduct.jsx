@@ -68,4 +68,4 @@ const ManageProduct = () => {
   )
 }
 
-export default ManageProduct;
+export default ManageProduct

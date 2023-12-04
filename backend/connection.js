@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url="mongodb+srv://anushasrivastava1999:lovejoshi1995@cluster0.eyfhd23.mongodb.net/handicraft?retryWrites=true&w=majority";
+const url="mongodb+srv://shakeelareeba02:shakeelareeba@cluster0.wu8dtsx.mongodb.net/mern-handicraft?retryWrites=true&w=majority";
 console.log("in connection file")
 mongoose.connect(url).then((result)=>{
     console.log('connected')

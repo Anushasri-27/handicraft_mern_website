@@ -14,7 +14,7 @@ router.post("/add",(req,res)=>{
 
 });
 
-router.get("/alluser", (req, res) => {
+router.get("/getall", (req, res) => {
     //empty bracket will return all data from db
     Model.find({})
       .then((result) => {
@@ -48,6 +48,19 @@ router.get("/alluser", (req, res) => {
         res.status(500).json(err);
       });
   });
+
+  router.post('/authenicate', (req, res) => {
+    Model.findOne(req.body)
+        .then((result) => {
+            if (result !== null)
+                res.json(result);
+            else res.status(401).json({ message: 'login failed' })
+        }).catch((err) => {
+            console.log(err);
+            res.status(500).json(err);
+        });
+
+});
 
 
 

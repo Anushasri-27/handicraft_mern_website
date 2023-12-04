@@ -74,6 +74,19 @@ const SignUp = () => {
             <form className="sign-up"  onSubmit={SignupForm.handleSubmit}>
               <h4>Find your next favorite Item!</h4>
               <div className="mb-3">
+                <label htmlFor="name" className="form-label">
+                  Name
+                </label>
+                <input
+                  type="name"
+                  className="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  onChange={SignupForm.handleChange} 
+                  value={SignupForm.values.name}
+                />
+              </div>
+              <div className="mb-3">
                 <label htmlFor="email" className="form-label">
                   Email
                 </label>
@@ -88,28 +101,15 @@ const SignUp = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="password" className="form-label">
-                  Password
+                  password
                 </label>
                 <input
                   type="password"
                   className="form-control"
                   id="password"
-                  placeholder="Enter a password"
+                  placeholder="Enter your password"
                   onChange={SignupForm.handleChange} 
                   value={SignupForm.values.password}
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="name" className="form-label">
-                  name
-                </label>
-                <input
-                  type="name"
-                  className="form-control"
-                  id="name"
-                  placeholder="Confirm password"
-                  onChange={SignupForm.handleChange} 
-                  value={SignupForm.values.name}
                 />
               </div>
               <button type="submit" className="btn submit-btn">

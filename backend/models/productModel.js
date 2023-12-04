@@ -3,8 +3,8 @@ const productScehma = new Schema({
     pname: String,
     pprice:String,
     pcategory:String,
-    pstock: String,
-    pdescription:String
+    pdescription:String,
+    pimage: String
 });
 
 module.exports = model('product', productScehma);
