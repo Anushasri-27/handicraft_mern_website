@@ -30,12 +30,12 @@ const Navbars = () => {
     else {
       return (
         <>
-          <li className='px-4 py-1 my-0 ' >
+          {/* <li className='px-4 py-1 my-0 ' > */}
             <Link className="nav-link" to="/signup">Sign Up</Link>
-          </li>
-          <li className='px-4 py-1 my-0 ' >
+          {/* </li> */}
+          {/* <li className='px-4 py-1 my-0 ' > */}
             <Link className="nav-link" to="/login">Login</Link>
-          </li>
+          {/* </li> */}
         </>
       );
     }

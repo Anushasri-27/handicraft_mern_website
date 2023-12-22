@@ -49,7 +49,7 @@ const ManageProduct = () => {
             </div>
         </header>
         <div className="container mt-5">
-            <table className="table table-dark">
+            <table className="table table-dark table-striped table-bordered text-center">
                 <thead>
                     <tr>
                         <th>Name</th>

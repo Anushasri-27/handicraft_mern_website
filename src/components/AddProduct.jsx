@@ -16,7 +16,7 @@ const AddProduct = () => {
     },
 
     onSubmit: async (values, action) => {
-      values.image = selFile;
+      values.pimage = selFile;
       console.log(values);
       const res = await fetch("http://localhost:5000/product/add", {
         method: "POST",
